@@ -25,10 +25,11 @@
 
 	}.atl{
 		font-style: italic;
-		color: white;
-		position: relative;
-		right: -80%;
-		top: 3em;
+	    color: white;
+	    float: right;
+	    position: relative;
+	    right: 10%;
+	    top: 3em;
 	}.pTag{
 		font-size: 30px;
 		color: white;
@@ -45,6 +46,7 @@
 }
 .navbar{
 	background-color: #fafbfb;
+	color: black;
 }
 .navbar a:hover{
 	color: #ffd966;
@@ -55,7 +57,7 @@
 .one{
 	border-right: 1px solid #e0e0d1;
 	border-left: 1px solid #e0e0d1;
-	color: #b8b894;
+	color: black;
 	text-transform: uppercase;
 }
 .two{
@@ -64,4 +66,22 @@
 }
 .passes{
 	background-color: #82e847;
+	border-right: 1px solid white;
+}
+.joinUs{
+	background-color: black;
+	margin-top: -2%;
+	.joinText{
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+		padding: 1% 0;
+	}
+}
+.background{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	img{
+		max-width: 1277px;
+	}
 }

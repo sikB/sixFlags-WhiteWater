@@ -95,5 +95,14 @@
 		  </div>
 		</nav>
 	</div>
+	<div class="joinUs col-sm-12">
+		<p class="joinText text-center">Join us for Opening Day on May 14! Get Your Season Pass Now!</p>
+	</div>
+	<div class="background col-sm-12">
+		<img src="img/ww.jpg">
+	</div>
+	<div class="ribbons">
+		<img src="https://www.sixflags.com/sites/all/themes/sixflags/images/sf-ribbons.png">
+	</div>
 </body>
 </html>

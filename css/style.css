@@ -34,11 +34,12 @@
 #header-right .atl {
   font-style: italic;
   color: white;
+  float: right;
   position: relative;
-  right: -80%;
+  right: 10%;
   top: 3em;
 }
-/* line 32, ../Compass/sass/style.scss */
+/* line 33, ../Compass/sass/style.scss */
 #header-right .pTag {
   font-size: 30px;
   color: white;
@@ -48,43 +49,68 @@
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px;
 }
 
-/* line 41, ../Compass/sass/style.scss */
+/* line 42, ../Compass/sass/style.scss */
 #header {
   width: 100%;
   height: 100px;
   background: url("https://www.sixflags.com/sites/all/themes/sixflags/images/backgrounds/sf-bg-park-header.jpg");
 }
 
-/* line 46, ../Compass/sass/style.scss */
+/* line 47, ../Compass/sass/style.scss */
 .navbar {
   background-color: #fafbfb;
+  color: black;
 }
 
-/* line 49, ../Compass/sass/style.scss */
+/* line 51, ../Compass/sass/style.scss */
 .navbar a:hover {
   color: #ffd966;
 }
 
-/* line 52, ../Compass/sass/style.scss */
+/* line 54, ../Compass/sass/style.scss */
 .navbar-inverse {
   border-color: white;
 }
 
-/* line 55, ../Compass/sass/style.scss */
+/* line 57, ../Compass/sass/style.scss */
 .one {
   border-right: 1px solid #e0e0d1;
   border-left: 1px solid #e0e0d1;
-  color: #b8b894;
+  color: black;
   text-transform: uppercase;
 }
 
-/* line 61, ../Compass/sass/style.scss */
+/* line 63, ../Compass/sass/style.scss */
 .two {
   border-right: 1px solid #e0e0d1;
   text-transform: uppercase;
 }
 
-/* line 65, ../Compass/sass/style.scss */
+/* line 67, ../Compass/sass/style.scss */
 .passes {
   background-color: #82e847;
+  border-right: 1px solid white;
+}
+
+/* line 71, ../Compass/sass/style.scss */
+.joinUs {
+  background-color: black;
+  margin-top: -2%;
+}
+/* line 74, ../Compass/sass/style.scss */
+.joinUs .joinText {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 1% 0;
+}
+
+/* line 81, ../Compass/sass/style.scss */
+.background {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+/* line 84, ../Compass/sass/style.scss */
+.background img {
+  max-width: 1277px;
 }
