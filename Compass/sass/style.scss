@@ -1,0 +1,67 @@
+#logo{
+	float: left;
+	position: absolute;
+	left: 17%;
+	top: 3%;
+}
+#header-right{
+	list-style: none;
+	float: right;
+	position: absolute;
+	right: 10%;
+	margin-top: 1%;
+	display: inline;
+	.cart, .promo{
+	color: #ffd966;
+	}#header-links{
+		display: flex;
+		color: white;
+		font-size: 12px;
+	} li{
+		color: white;
+		padding-right: 0.5em;
+
+	}.sfww{
+
+	}.atl{
+		font-style: italic;
+		color: white;
+		position: relative;
+		right: -80%;
+		top: 3em;
+	}.pTag{
+		font-size: 30px;
+		color: white;
+		font-weight: bolder;
+		position: absolute;
+		right: 10%;
+		text-shadow: rgba(0,0,0,0.5) 1px 1px 10px;
+	}
+}
+#header{
+	width: 100%;
+	height: 100px;
+	background: url('https://www.sixflags.com/sites/all/themes/sixflags/images/backgrounds/sf-bg-park-header.jpg');
+}
+.navbar{
+	background-color: #fafbfb;
+}
+.navbar a:hover{
+	color: #ffd966;
+}
+.navbar-inverse{
+	border-color: white;
+}
+.one{
+	border-right: 1px solid #e0e0d1;
+	border-left: 1px solid #e0e0d1;
+	color: #b8b894;
+	text-transform: uppercase;
+}
+.two{
+	border-right: 1px solid #e0e0d1;
+	text-transform: uppercase;
+}
+.passes{
+	background-color: #82e847;
+}

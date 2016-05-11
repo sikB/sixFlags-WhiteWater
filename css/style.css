@@ -1,0 +1,90 @@
+/* line 1, ../Compass/sass/style.scss */
+#logo {
+  float: left;
+  position: absolute;
+  left: 17%;
+  top: 3%;
+}
+
+/* line 7, ../Compass/sass/style.scss */
+#header-right {
+  list-style: none;
+  float: right;
+  position: absolute;
+  right: 10%;
+  margin-top: 1%;
+  display: inline;
+}
+/* line 14, ../Compass/sass/style.scss */
+#header-right .cart, #header-right .promo {
+  color: #ffd966;
+}
+/* line 16, ../Compass/sass/style.scss */
+#header-right #header-links {
+  display: flex;
+  color: white;
+  font-size: 12px;
+}
+/* line 20, ../Compass/sass/style.scss */
+#header-right li {
+  color: white;
+  padding-right: 0.5em;
+}
+/* line 26, ../Compass/sass/style.scss */
+#header-right .atl {
+  font-style: italic;
+  color: white;
+  position: relative;
+  right: -80%;
+  top: 3em;
+}
+/* line 32, ../Compass/sass/style.scss */
+#header-right .pTag {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+  right: 10%;
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px;
+}
+
+/* line 41, ../Compass/sass/style.scss */
+#header {
+  width: 100%;
+  height: 100px;
+  background: url("https://www.sixflags.com/sites/all/themes/sixflags/images/backgrounds/sf-bg-park-header.jpg");
+}
+
+/* line 46, ../Compass/sass/style.scss */
+.navbar {
+  background-color: #fafbfb;
+}
+
+/* line 49, ../Compass/sass/style.scss */
+.navbar a:hover {
+  color: #ffd966;
+}
+
+/* line 52, ../Compass/sass/style.scss */
+.navbar-inverse {
+  border-color: white;
+}
+
+/* line 55, ../Compass/sass/style.scss */
+.one {
+  border-right: 1px solid #e0e0d1;
+  border-left: 1px solid #e0e0d1;
+  color: #b8b894;
+  text-transform: uppercase;
+}
+
+/* line 61, ../Compass/sass/style.scss */
+.two {
+  border-right: 1px solid #e0e0d1;
+  text-transform: uppercase;
+}
+
+/* line 65, ../Compass/sass/style.scss */
+.passes {
+  background-color: #82e847;
+}
